@@ -26,7 +26,7 @@ if (corona=='yes' || corona=='y' || corona=='yea'){
 
     result=result+20;
 }
-if (pets=='yes' || pets=='y' || pets=='yea'){
+if (pets=='no' || pets=='n' || pets=='nope'){
 
     result=result+20;
 }
