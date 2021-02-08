@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: lightblue;
+    font-size: 100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+body {
+    background-color: black;
+
+
+}
+h2{
+    padding: 50px;
+    color: rgb(255, 253, 253);
+    font-size: 50px;
+    
+
+}
+ol li {
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 25px;
+    font-size: 25px;
+    list-style-type:decimal-leading-zero;
+    
+}
+
+
+li {
+    display: list-item;
+    list-style-position: inside;
+  }
+
+hr {
+    border: 10px solid rgb(255, 245, 245);
+    border-width: 2px;
+  }
+
