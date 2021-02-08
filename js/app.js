@@ -42,7 +42,7 @@ if (out=='yes' || out=='y' || out=='yea'){
 }
 
 result=result+'%';
-document.write('you know me '+result+' thanks for playing')
+document.write('you know me '+result+' thanks for playing');
 
 console.log(result);
 
