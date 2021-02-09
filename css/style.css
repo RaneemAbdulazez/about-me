@@ -5,6 +5,12 @@ h1 {
     font-family: "Lucida Console", "Courier New", monospace;
 
 }
+p{
+    color: aliceblue;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+}
 
 body {
     background-color: black;
@@ -12,21 +18,33 @@ body {
 
 }
 h2{
-    padding: 50px;
+    padding: 10px;
+    /* margin-right: 20px; */
+    width: fit-content;
     color: rgb(255, 253, 253);
     font-size: 50px;
+    /* css modified */
+    border: 5px solid gray;
     
 
 }
+ul li {
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 25px;
+    font-size: 25px;
+    list-style-type:circle;
+    
+}
+
 ol li {
     color: rgb(255, 255, 255);
     padding: 25px;
     margin: 25px;
     font-size: 25px;
-    list-style-type:decimal-leading-zero;
+    list-style-type:decimal;
     
 }
-
 
 li {
     display: list-item;
