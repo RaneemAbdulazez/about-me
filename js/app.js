@@ -9,11 +9,19 @@
 let userName = prompt('What\'s you name ');
 let result = 0;
 
+
 alert('okay ' + userName + ' let\'s play a gussing game about me!');
 alert('at the end of the game I will calculate how much you know me in 100%');
-
+color();
+corona();
+pets();
+food();
+out();
+age();
+userGuess();
 
 // ask about COLOR
+function color(){
 let color = prompt('my favourite color is blue ?', 'answer with yes or no');
 color = color.toLowerCase();
 
@@ -26,10 +34,13 @@ if (color.toLocaleLowerCase() == 'yes' || color == 'y' || color == 'yea') {
 }
 else {
     alert('Not really');
+}return;
 }
 
 
 // ask about CORONA
+
+function corona(){
 let corona = prompt('am I afraid of corona virus?');
 corona = corona.toLowerCase();
 
@@ -41,10 +52,12 @@ if (corona == 'yes' || corona == 'y' || corona == 'yea') {
 }
 else {
     alert('Not really');
+}return;
 }
 
-
 // ask about PETS 
+
+function pets(){
 
 let pets = prompt('Do I love pets?');
 pets = pets.toLowerCase();
@@ -58,10 +71,12 @@ if (pets == 'no' || pets == 'n' || pets == 'nope') {
 }
 else {
     alert('Not really');
+}return
+
 }
-
-
 // ask about FOOD
+
+function food(){
 let food = prompt('am I in Love with food ?');
 food = food.toLowerCase();
 
@@ -73,10 +88,13 @@ if (food == 'yes' || food == 'y' || food == 'yea') {
 }
 else {
     alert('Not really');
+}return;
 }
 
 
-// ask about going out 
+// ask about going out
+
+function out(){ 
 let out = prompt('do I cancel going out alot ?');
 out = out.toLowerCase();
 
@@ -89,7 +107,8 @@ if (out == 'yes' || out == 'y' || out == 'yea') {
 else {
     alert('Not really');
 }
-
+return;
+}
 
 
 
@@ -100,6 +119,7 @@ else {
 
 
 
+function age(){
 for (let i = 1; i <= 4; i++) {
     let age = prompt('guess how old I am ? you have 4 attempts');
     age = Number(age);
@@ -135,7 +155,8 @@ for (let i = 1; i <= 4; i++) {
     }
 
 }
-
+return;
+}
 
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
 // Give the user 6 attempts to guess the correct answer.
@@ -144,6 +165,7 @@ for (let i = 1; i <= 4; i++) {
 // Consider using a loop of some sort for this question.
 
 
+function userGuess(){
 for(let x=0;x<6;x++){
     alert('I lived in three different contries guess one of them'); 
     let contries=['SYRIA','JORDAN','KSA'];
@@ -171,13 +193,10 @@ for(let x=0;x<6;x++){
             }
         }
         
-
-
-
-
+return;
+    }
 
 result=result/70*100;
 result=result+'%';
 alert('you know me '+result+' thanks for playing');
-
 
