@@ -175,13 +175,13 @@ for(let x=0;x<6;x++){
         let f=contries.indexOf(userGuess);
         // console.log(f);
         if(f!=-1){
-            alert('that\'s right here are the contiries I lived in \n'+contries.join("\n"));
+            alert('that\'s right here are the contiries I lived in \n'+contries);
             result=result+10;
             break;
         }
         while(f==-1){
             if(x==5){
-                alert('here are the contires I lived in \n '+contries.join("\n"));
+                alert('here are the contires I lived in \n '+contries);
                 
                 break;
             }
@@ -197,6 +197,8 @@ return;
     }
 
 result=result/70*100;
+result=Math.round(result);
 result=result+'%';
+
 alert('you know me '+result+' thanks for playing');
 
